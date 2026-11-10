@@ -21,7 +21,10 @@ h2{font-size:17px;font-weight:700;margin:26px 0 12px;padding-left:11px;border-le
 .kpi .l{font-size:12px;color:#8b93a1;margin-top:3px}
 .kpi.hi{background:#fffaf7;border-color:#f3d9cd}
 .kpi.hi .v{color:#d4553a}
-table{width:100%;border-collapse:collapse;background:#fff;border:1px solid #e8eaee;border-radius:12px;overflow:hidden;font-size:13px}
+.tbl{overflow-x:auto;-webkit-overflow-scrolling:touch;border-radius:12px;border:1px solid #e8eaee;background:#fff}
+table{width:100%;border-collapse:collapse;background:#fff;font-size:13px}
+@media(min-width:821px){table{border:1px solid #e8eaee;border-radius:12px;overflow:hidden}}
+@media(max-width:820px){.tbl{border:none}.tbl table{min-width:640px}}
 th{background:#fafbfc;text-align:left;padding:10px 12px;font-weight:600;color:#4b5563;font-size:12px;border-bottom:1px solid #e8eaee;white-space:nowrap}
 td{padding:10px 12px;border-bottom:1px solid #f1f3f6;vertical-align:top}
 tr:last-child td{border-bottom:none}
@@ -80,7 +83,7 @@ li{margin:5px 0}
     <b>直接答案：2 场。</b>2026-08-27 的华夫格卫衣（单链接 <b>345.7 万</b>）和 2026-07-24 的 Slazenger 慢跑鞋（单链接 <b>63.9 万</b>）。<br>
     但这两场<b>都不是美妆</b>——都是「极简 SKU + 单一爆款服饰/鞋 + 高频返场讲解」的专场式打法，客单价都压在 ¥80 这个她最舒服的价格带。
   </div>
-  <table>
+  <div class="tbl"><table>
     <thead><tr><th>日期</th><th>单链接销售额</th><th>单品</th><th class="num">客单价</th><th class="num">销量</th><th class="num">全场 GMV</th><th class="num">SKU 数</th><th class="num">峰值在线</th><th>讲解投入</th></tr></thead>
     <tbody>
       <tr class="hit">
@@ -145,14 +148,14 @@ li{margin:5px 0}
         <td class="mono">11次 / 556s <span class="tag">彩妆</span></td>
       </tr>
     </tbody>
-  </table>
+  </table></div>
   <div class="note" style="border-left-color:#8b93a1">
     <b style="color:#4b5563">规律提炼：</b>她破 50 万的场，SKU 只有 <b>6~13 个</b>，单品讲解 <b>12 次以上、累计 8 分钟</b>，客单价 ¥80，靠「万单级销量」而不是「高客单」堆出来的（43,261 件 × ¥80 = 345 万）。
     全年 342 个带货场里，只有 9 场全场 GMV 破 50 万（占比 2.6%）。
   </div>
 
   <h2>三、她的品类真相：强在服饰/鞋/食品，护肤是明显短板</h2>
-  <table>
+  <div class="tbl"><table>
     <thead><tr><th>品类</th><th class="num">TOP 单品出现次数</th><th class="num">合计金额</th><th class="num">单品最高</th><th>判断</th></tr></thead>
     <tbody>
       <tr><td>服饰内衣</td><td class="num">41</td><td class="num">591.0w</td>
@@ -171,7 +174,7 @@ li{margin:5px 0}
         <td class="num" style="font-weight:700;color:#8b93a1">4.5w</td>
         <td><span class="tag">跑不动</span><div class="mono" style="margin-top:3px">含「蚕丝面膜裤」卫生巾类，真面膜最高仅 2.49 万</div></td></tr>
     </tbody>
-  </table>
+  </table></div>
 
   <div class="grid2" style="margin-top:14px">
     <div class="card">
@@ -235,7 +238,7 @@ li{margin:5px 0}
     </div>
   </div>
 
-  <table>
+  <div class="tbl"><table>
     <thead><tr><th>排法</th><th>SKU 结构</th><th>机制</th><th class="num">需成交单量</th><th class="num">合理预期</th><th class="num">破 50 万概率</th></tr></thead>
     <tbody>
       <tr>
@@ -268,7 +271,7 @@ li{margin:5px 0}
         <td class="num"><span class="pill good">40%</span></td>
       </tr>
     </tbody>
-  </table>
+  </table></div>
 
   <h2>五、如果要押这一场，四条必须做到</h2>
   <div class="card">
